@@ -66,11 +66,6 @@
 > *   [Python 3.x](https://www.python.org/) - The programming language used
 > *   [Django](https://www.djangoproject.com/) - The web framework used
 > 
-> Contributing
-> ------------
-> 
-> Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-> 
 > Versioning
 > ----------
 > 
@@ -79,10 +74,13 @@
 > Authors
 > -------
 > 
-> *   **Your Name** - _Initial work_ - [Your Github Profile](https://github.com/%3Cyour-username%3E)
+> Tunji Ologunebi <tunjexi20@gmail.com>
+> John Wajuri 
 > 
 > See also the list of [contributors](https://github.com/%3Cyour-username%3E/airbnb-clone/contributors) who participated in this project.
-> 
+> Tunji Ologunebi 
+> John Wajuri
+
 > License
 > -------
 > 
