@@ -75,6 +75,7 @@
 > -------
 > 
 > Tunji Ologunebi <tunjexi20@gmail.com>
+>
 > John Wajuri 
 > 
 > See also the list of [contributors](https://github.com/%3Cyour-username%3E/airbnb-clone/contributors) who participated in this project.
