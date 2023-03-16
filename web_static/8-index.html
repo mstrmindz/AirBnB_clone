@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <a href="#">
+          <h2 class="logo">Logo</h2>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="filters">
+        <h3>Filters</h3>
+        <div class="filter" id="locations-filter">
+          <h4>Locations</h4>
+          <ul>
+            <li>State 1
+              <ul class="popover">
+                <li>City 1</li>
+                <li>City 2</li>
+                <li>City 3</li>
+              </ul>
+            </li>
+            <li>State 2
+              <ul class="popover">
+                <li>City 4</li>
+                <li>City 5</li>
+                <li>City 6</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="filter" id="amenities-filter">
+          <h4>Amenities</h4>
+          <ul>
+            <li><input type="checkbox" name="amenities" value="wifi">Wifi</li>
+            <li><input type="checkbox" name="amenities" value="parking">Parking</li>
+            <li><input type="checkbox" name="amenities" value="pool">Pool</li>
+            <li><input type="checkbox" name="amenities" value="pets_allowed">Pets allowed</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="places">
+        <h1>Places</h1>
+        <article class="place">
+          <h2>Place 1</h2>
+          <div class="price_by_night">
+            <span>$100</span>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fas fa-users"></i>
+              <br>
+              <span>4 guests</span>
+            </div>
+            <div class="number_rooms">
+              <i class="fas fa-door-open"></i>
+              <br>
+              <span>2 bedrooms</span>
+            </div>
+            <div class="number_bathrooms">
+              <i class="fas fa-bath"></i>
+              <br>
+              <span>2 bathrooms</span>
+            </div>
+          </div>
+          <div class="user">
+            Owner: <strong>Fake owner</strong>
+          </div>
+          <div class

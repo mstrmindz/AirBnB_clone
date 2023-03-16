@@ -1,0 +1,104 @@
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  
+  .filters h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .filters h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8D8D8D;
+  }
+  
+  .filter {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter:not(:last-child) {
+    border-right: 1px solid #DDDDDD;
+  }
+  
+  .filter h3 {
+    margin: 0;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .popover {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #FAFAFA;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .popover ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .popover li {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8D8D8D;
+    cursor: pointer;
+  }
+  
+  .popover li:hover {
+    background-color: #F5F5F5;
+    color: #000000;
+  }
+  
+  .popover .level-1 {
+    display: block;
+  }
+  
+  .popover .level-2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-width: 100px;
+    z-index: 2;
+  }
+  
+  .popover .level-2 li {
+    padding-left: 20px;
+  }
+  
+  .popover .level-2 li:hover {
+    background-color: transparent;
+    color: #000000;
+  }
+  
+  .popover .level-1:hover .level-2 {
+    display: block;
+  }
+  
